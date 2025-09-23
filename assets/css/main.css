@@ -2839,8 +2839,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features {
+				display: flex;
+				flex-direction: column;
+				align-items: stretch ;
 				width: 100%;
-				margin: 0 0 2em 0;
+				margin: 0 auto 2em auto;
 			}
 
 			.features li {
@@ -2881,6 +2884,10 @@ input, select, textarea {
 			padding: 1.5em;
 			color: #ffffff;
 			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 		}
 
 			.statistics li.style1 {
@@ -2942,7 +2949,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.statistics {
-				display: block;
+				display: flex;
+				flex-direction: column; /*Empiler les tuiles*/
+				align-items: stretch; /*Même largeur*/
 				width: 20em;
 				max-width: 100%;
 				margin: 0 auto 2em auto;
