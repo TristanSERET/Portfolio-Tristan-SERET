@@ -2839,15 +2839,21 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
-				.features li {
-					width: 100%;
-					margin-left: 0;
-					margin-top: 2em;
-				}
+			.features li {
+				width: 100%;
+				margin-left: 0;
+				margin-top: 2em;
+			}
 
-					.features li:nth-child(2), .features li:nth-child(3) {
-						margin-top: 2em;
-					}
+			.features li p{
+				word-wrap:break-word;
+				overflow-wrap: break-word;
+				hyphens: auto;
+			}
+
+			.features li:nth-child(2), .features li:nth-child(3) {
+				margin-top: 2em;
+			}
 
 		}
 
